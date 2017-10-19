@@ -1,0 +1,189 @@
+<html>
+  <body style="background-color:AliceBlue">
+
+  <h1>What is HTML?</h1>
+  <hr />
+    <p>1.HTML is not programming lauguage, it is a markup language</p>
+    <p>2.element should be specified in a pair of bracket which consisted of a open and a closed bracket </p>
+    <p>3.each element might have attributes which can be specified in side the open bracket, the value of attribute need to be write in ""</p>
+
+  <h1 align="left">Title</h2>
+  <hr />
+    <p>1.Use `h1~h6` in bracket, 1~6 has different size</p>
+    <p>2.attribute: align ='center/left/right'</p>
+    <p>3.Use `hr` to add a horizontal line</p>
+    <p>4.Use `!-- --` to add commend
+
+  <h1>Paragraph</h1>
+  <hr />
+    <p>1.Use `br /` to create a newline
+    <p>2.Use `p` in bracket</p>
+
+  <h1>Link</h1>
+  <hr />
+    <a href="https://github.com/newlifehaonan/computersystem" target="_blank">This is my Github</a>
+    <p>1.Use `a` and , specify `href = URL ` in bracket <br />
+    2.Use `Target="_blank"` to open the link in a new window <br />
+    3. Use `name="C1"` to create a anchor, which will directly lead you to the destination <br />
+    <a href="#C4">Go to Image</a> <br />
+    4.
+    </p>
+
+
+  <h1><a name ="C4">Image</a></h1>
+  <hr />
+    <img src="https://avatars2.githubusercontent.com/u/32348307?v=4&s=400&u=8851d208b8e8e3b8d5b63c3ef8824697cc186e70" width="104" height="104" alt="This is my selfie"/>
+    <p>1.Use `img` with `src` attribute to add an image</p>
+    <p>2.Use `height=""` and `width=""` to adjust image size</p>
+    <p>3.Use `Alt="alternative text" to replace image if it can not loading`
+    <p>4.use `align=""` to adjust the position of image</p>
+    <p>Image <img src="http://www.w3school.com.cn/i/eg_cute.gif" align="bottom"> At bottom</p>
+    <p>Image <img src ="http://www.w3school.com.cn/i/eg_cute.gif" align="middle"> At middle</p>
+    <p>Image <img src ="http://www.w3school.com.cn/i/eg_cute.gif" align="top"> At top</p>
+    <p><img src ="http://www.w3school.com.cn/i/eg_cute.gif" align="left">Image is at left</p>
+    <p><img src ="http://www.w3school.com.cn/i/eg_cute.gif" align="right">Image is at right</p>
+    <p>5.how to create link on a image <br /> embodied a image element with `border="0" attribute in a link element`</p>
+    <a href="https://avatars2.githubusercontent.com/u/32348307?v=4&s=400&u=8851d208b8e8e3b8d5b63c3ef8824697cc186e70">
+    <img src="http://www.w3school.com.cn/i/eg_cute.gif" border="0">
+    </a>
+    <p>6.Use `backgroup ="URL"` in body element to add image as background</p>
+
+  <h1>Style Attribute
+  <hr />
+    <p style ="color:DeepPink;font-family:verdana;font-size:15px;text-align:left">1.Use `stye =""` attribute to change all HTML element attribute <br />
+       2.Common used style value: font-size;color;font-family;text-align <br />
+    </p>
+  </h1>
+
+  <h1>Text Format</h1>
+  <hr />
+    <p>
+    <b> 1.Use `b` to create boldface text </b> <br />
+    <i> 2.Use `i` to create italic text </i> <br />
+    <em>3.Use `em` to create emphasized text </em> <br />
+    4.Subscript
+    <sub>Use `sub` to create a subscript </sub> <br />
+    5.Superscript
+    <sup>Use `sup` to create a superscript </sup> <br />
+    6.Create abbreviarion
+    <abbr title="etceteral">etc.</abbr> <br />
+    7.Create acronym
+    <acronym title="World Wide Web">WWW</acronym> <br />
+    8.Big Quote
+    <blockquote>
+    Stay Hungry, Stay Cool
+    </blockquote>
+    9.Small Quote <br />
+    <q>
+    Stay Hungry, Stay Cool
+    </q> <br />
+    10.Cite <br />
+    <!--This is a note, which will not appear at web browser-->
+    <cite>The Sunflower</cite> is draw by Vincent Van Gogh <br />
+    </p>
+
+    <h1>Table</h1>
+    <hr />
+    <p>1.Use `Table` to initial a table</p>
+    <p>2.Use `tr` to create a row</p>
+    <p>3.Use `td` to add date into a cell</p>
+    <p>4.Use `border ="1"` to create a cell with frame,value is the darkness of frame</p>
+    <p>5.Use `th` to add header to each column</p>
+    <p>6.Use `caption` to add theme of a table</p>
+    <p>7.Use `colspan="" and `rowspan`` to merge two cells</p>
+    <p>8.Use `cellpedding=""` and `cellspacing="" to adjust cell edge size`</p>
+    <p>9.Use `bgcolor=""` to change table background color</p>
+    <p>10.Use `frame="above/below.."` to specify different frame patten</p>
+    <p>11.Use `align="" to adjust postion of the value in each cell`</p>
+    <table border="1" bgcolor="FloralWhite">
+    <caption><i>Data Size and symbol</i></caption>
+    <tr>
+      <th colspan="2" align="center">Data Size</th>
+      <th>C</th>
+      <th align="center">Addembly</th>
+      <th>Register</th>
+    </tr>
+    <tr>
+      <td>1Byte</td>
+      <td>8bits</td>
+      <td>char</td>
+      <td align="center">b</td>
+      <td>.h/.l</td>
+    </tr>
+    <tr>
+      <td>2Byte</td>
+      <td>16bits</td>
+      <td>short</td>
+      <td align="center">w</td>
+      <td>no suffix</td>
+    </tr>
+    <tr>
+      <td>4Byte</td>
+      <td>32bits</td>
+      <td>int</td>
+      <td align="center">l</td>
+      <td>%e..</td>
+    </tr>
+    <tr>
+      <td>8Byte</td>
+      <td>64bits</td>
+      <td>long</td>
+      <td align="center">q</td>
+      <td>%r..</td>
+    </tr>
+    </table>
+    <cite>Example of creating a table</cite>
+
+    <h1>List</h1>
+    <hr />
+    <h2>odered list</h2>
+    <p>1.Use `ol` initialize list</p>
+    <p>2.Use `li` to create level</p>
+
+    <ol>
+      <li>programing language</li>
+      <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+      </ol>
+      <li>markup language</li>
+    </ol>
+
+    <h2>unordered list</h2>
+    <p>1.Use `ul` to initialize</p>
+    <p>2.Use `li` to create level</p>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+
+    <h2>self defined list</h2>
+    <dl>
+      <dt>Animal</dt>
+      <dd>has mitochondria</dd>
+      <dt>Vegetable</dt>
+      <dd>has chloroplast</dd>
+    </dl>
+
+    <h1>block level element & inline element</h1>
+    <hr />
+    <ul>
+      <li>block level element</li>
+      <p>`div`</p>
+      <li>inline element</li>
+      <p>`span`</p>
+    </ul>
+
+    <h1></h1>
+    <hr />
+
+
+  <address>
+  Written By: Haonan(Haonan) Chen <br />
+  Visit me at : <a href="https://github.com/newlifehaonan/computersystem">My homepage</a> <br />
+  DePaul University
+  </address>
+  </body>
+</html>
