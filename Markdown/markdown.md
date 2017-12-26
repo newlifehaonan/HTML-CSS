@@ -1,7 +1,6 @@
 Awesome MarkDown
 =====
-Harry Chen     
-DePaul university        
+Harry Chen            
 -----
 *This is a file of testing MARKDOWN*      
 
